@@ -8,3 +8,4 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'the Official English to Morse Code Translator';
 }
+

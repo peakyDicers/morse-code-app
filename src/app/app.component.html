@@ -1,5 +1,13 @@
 <div class="flex">
-  <div class="outline w-25 pa3 mr2">
+  <div class="w-50"></div>
+  <div class="w-50 pa3 mr2">
+    <app-display></app-display>
     <app-input></app-input>
   </div>
 </div>
+<script>
+    var sound = new Howl({
+      src: ['/assets/sound.wav']
+    });
+    sound.play();
+</script>

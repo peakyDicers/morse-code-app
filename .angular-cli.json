@@ -22,7 +22,9 @@
         "styles.css",
         "../node_modules/tachyons/css/tachyons.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/howler/src/howler.core.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
